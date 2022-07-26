@@ -1,12 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Listas</title>
+  <style>
+    mark{
+      background-color: rgb(243, 243, 164);
+    }
+    small{
+      color: rgb(65, 0, 139);
+    }
+  </style>
 </head>
 <body>
+  <h1>Trabalhando com listas</h1>
 
+  <!--Sabia que Menus são criados com listas? Bem previsível e notavel, mas o óbvio também é legal!-->
+
+  <p>
+    No HTML existem vários tipos de listas (<del>apenas 3, na verdade</del>), e nesta aula veremos todas.
+  </p>
+  <br>
+  <hr>
+  <h2>Listas Ordenadas</h2>
+  <p>
+    Onde a <mark>ordem</mark> é muito importante, podemos personalizá-las mudando sua formatação, ou mudando por onde ela começa.
+  </p>
+  <ol>
+    <li>Acordar 5:30AM</li>
+    <li>Ir para a escola</li>
+    <li>Almoçar</li>
+    <li>Estudar</li>
+    <li>Jantar</li>
+    <li>Ir para o curso</li>
+    <li>Dormir</li>
+  </ol>
+  <h2>Listas não Ordenadas</h2>
+  <p>Listas onde a sequência não é importante, igualmente <mark>customisáveis</mark>.</p>
+  <ul type="square">
+    <li>pão</li> 
+    <li>leite</li>
+    <li>feijão</li> 
+    <li>arroz</li>
+    <li>carne</li>
+    <li>queijo</li>
+    <li>frutas</li>
+  </ul>
+  <h3>Misturando Listas</h3>
+  <p>É possível <em>misturar</em> esses dois tipos de listas, ou caso não queira, criar sub-listas do mesmo tipo, vejo o exemplo a seguir:</p>
+  <ol type="a">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+      <ul>
+        <li>item 3.1</li>
+        <li>item 3.2</li>
+      </ul>
+    <li>item 4</li>
+  </ol>
+  <h2>Listas de Definições</h2>
+  <p>Como um <mark>dicionário</mark>, as mesmas tem termos e descrições/definições.</p>
+  <dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação utilizada para criar o conteúdo do site.</dd>
+    <dt>CSS</dt>
+    <dd>Lingaguem de marcação para a especificação de estilos em sites.</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para criar interatividades em sites.</dd>
+  </dl>
+  <br>
+  <br>
+  <br>
+  <small>Sim, eu gosto de grifar as coisas, como percebeu?</small>
 </body>
 </html>
