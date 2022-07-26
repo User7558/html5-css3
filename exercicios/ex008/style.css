@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(220, 235, 245);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  color: rgb(52, 52, 54);
+  font-family: 'Times New Roman', Times, serif;
+}
+h2{
+  color: rgb(88, 25, 25);
+  font-family: 'Times New Roman', Times, serif;
+}
+h3{
+  color: rgb(33, 52, 136);
+  font-family: 'Times New Roman', Times, serif;
+}
+a{
+  color: rgb(12, 55, 94);
+  font-style: italic;
+}
+
+/* Aprendi apenas o básico de CSS, não ligue para a formatação porca. */
