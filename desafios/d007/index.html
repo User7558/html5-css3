@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <h1>Exercício de Imagens Flexíveis</h1>
+  <p>Esta vendo a imagem completa? Que tal ampliar o tamanho da sua janela para ter uma melhor experiência &#x1F609; </p>
+
+  <picture>
+    <source media="(max-width: 750px)" srcset="images/image-450.jpeg" type="image/jpeg">
+    <source media="(max-width: 1050px)" srcset="images/image-700.png" type="image/png">
+    <source media="(max-width: 1550px)" srcset="images/image-1000.jpeg" type="image/jpeg">
+    <img src="images/image-1500.jpeg" alt="imagem flexivel g">
+  </picture>
+</body>
+</html>
