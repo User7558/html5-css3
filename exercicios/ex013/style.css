@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+h1{
+  color: darkblue;
+  background-color: rgb(67, 195, 255);
+}
+h2{
+  color: darkslateblue;
+}
+p{
+  text-align: justify;
+  text-indent: 5mm;
+}
