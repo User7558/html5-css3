@@ -29,3 +29,9 @@ h1{
 h2{
   color: #13678A;
 }
+
+code, abbr{
+  font-family: monospace;
+  font-size: 1.2em;
+  color: rgb(49, 49, 49);
+}
